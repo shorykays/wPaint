@@ -576,7 +576,7 @@
           menu.items[key].name = key;
 
           // check whether the paths are already set
-          if (menu.items[key].pathSet !== undefined) {
+          if (menu.items[key].pathSet === undefined) {
             menu.items[key].pathSet = true;
 
             // use default img if img not set
