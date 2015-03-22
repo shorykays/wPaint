@@ -17,8 +17,19 @@ This fork gave up on:
 
 This fork should be a drop in replacement for wPaint. Scripts for 2ch.net and 8ch.net are provided. Build by doing:
 
-```npm install
-grunt --force```
+```
+npm install
+grunt --force
+```
+
+Pictures say a thousand words:
+
+Old, limiting color chooser:
+![0](http://a.pomf.se/egxfjd.png)
+
+New dynamic color chooser that uses two HTML5 canvases, saves history and has 4 modes (also showing keybind for clear):
+![0](http://a.pomf.se/cvjnph.png)
+
 
 ## Related Plugins
 
