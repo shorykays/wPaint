@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    /*stylus: {
+    stylus: {
       compile: {
         options: {
           import: ['nib', '../lib/mixins'],
@@ -10,7 +10,7 @@ module.exports = function(grunt) {
           './wPaint.min.css': ['./lib/wColorPicker.min.css', './src/wPaint.css']
         }
       }
-    },*/
+    },
     concat: {
       my_target: {
         files: {
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          './oekaki.js': ['2ch.js'],
+          './oekaki.js': ['8ch.js'], // change to "2ch.js" for 2ch version. 2ch version also contains..._() function, ja_JP.js and jQuery(&UI).
        }
       }
     }
